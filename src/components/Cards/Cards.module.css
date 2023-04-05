@@ -1,0 +1,7 @@
+.cards {
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	padding: 20px;
+	grid-gap: 40px;
+	display: grid;
+	place-items: center;
+}
