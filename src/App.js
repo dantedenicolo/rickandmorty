@@ -3,7 +3,13 @@ import Cards from "./components/Cards/Cards.jsx";
 import Nav from "./components/Nav/Nav.jsx";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import {
+	Routes,
+	Route,
+	useLocation,
+	useNavigate,
+	Navigate,
+} from "react-router-dom";
 import About from "./components/About/About.jsx";
 import Detail from "./components/Detail/Detail.jsx";
 import Error from "./components/Error/Error.jsx";
@@ -38,7 +44,7 @@ function App() {
 	useEffect(() => {
 		if (access === true && location.pathname === "/") {
 			navigate("/home");
-		} else if (access === false) {
+		} else if (access === false && location.pathname !== "/404") {
 			navigate("/");
 		}
 	}, [access, navigate, location.pathname]);
@@ -65,7 +71,7 @@ function App() {
 		setCharacters((oldChars) => oldChars.filter((c) => c.id !== id));
 	}
 
-	const showNav = location.pathname !== "/";
+	const showNav = location.pathname !== "/" && location.pathname !== "/404";
 
 	return (
 		<div className="App">
@@ -80,7 +86,8 @@ function App() {
 				/>
 				<Route path="/about" element={<About />} />
 				<Route path="/detail/:id" element={<Detail />} />
-				<Route path="*" element={<Error />} />
+				<Route path="*" element={<Navigate to="/404" replace />} />
+				<Route path="/404" element={<Error />} />
 			</Routes>
 		</div>
 	);
