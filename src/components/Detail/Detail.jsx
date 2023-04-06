@@ -25,7 +25,12 @@ const Detail = () => {
 		return setCharacter({});
 	}, [id]);
 	if (!character.name) {
-		return <h1>Cargando información del personaje...</h1>;
+		return (
+			<h1>
+				Cargando información del personaje
+				<div className={style.loader}></div>
+			</h1>
+		);
 	}
 	return (
 		<div>
