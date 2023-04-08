@@ -20,7 +20,7 @@ You can try the app with every feature up-to-date in [https://rickandmortydeploy
 
 - Adding characters by ID and random adding
 
-- Styling using CSS styled components, cards customization, and close button
+- Styling using moduled CSS, cards customization, and close button
 
 - About page
 
