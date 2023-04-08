@@ -51,7 +51,7 @@ const Nav = (props) => {
         </li>
         <li>
           <button onClick={handleLogout} className={style.logout}>
-            Logouts
+            Logout
           </button>
         </li>
       </ul>
