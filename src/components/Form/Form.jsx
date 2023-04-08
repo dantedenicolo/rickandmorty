@@ -52,8 +52,8 @@ const Form = (props) => {
           className={errors.password ? style.errorInput : style.successInput}
         />
         {errors.password && <p className={style.error}>{errors.password}</p>}
-
         <button type='submit'>Login</button>
+        <p className={style.creds}><b>email:</b> test@test.com || <b>password:</b> Test1234</p>
       </form>
     </div>
   )
