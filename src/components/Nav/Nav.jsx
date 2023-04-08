@@ -1,9 +1,11 @@
 import SearchBar from '../SearchBar/SearchBar'
 import style from './Nav.module.css'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 
 const Nav = (props) => {
   const navigate = useNavigate()
+  const location = useLocation()
+  const showAdds = location.pathname === '/home'
 
   const handleRandom = () => {
     const id = Math.floor(Math.random() * 826) + 1
@@ -40,12 +42,16 @@ const Nav = (props) => {
             About
           </Link>
         </li>
-        <li>
-          <SearchBar onSearch={props.onSearch} />
-        </li>
-        <li>
-          <button onClick={handleRandom}>Agregar Random</button>
-        </li>
+        {showAdds && (
+          <>
+            <li>
+              <SearchBar onSearch={props.onSearch} />
+            </li>
+            <li>
+              <button onClick={handleRandom}>Agregar Random</button>
+            </li>
+          </>
+        )}
         <li>
           <button onClick={handle404}>Test 404</button>
         </li>
