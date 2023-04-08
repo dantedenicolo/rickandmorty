@@ -62,4 +62,4 @@ For support, email denicolodante@gmail.com or DM [@dantedenicolo](https://instag
 
 - [Twitter](https://twitter.com/dantutu_)
 - [Instagram](https://instagram.com/dantedenicolo)
-- [LinkedIn](https://linkedin.com/dantedenicolo)
+- [LinkedIn](https://www.linkedin.com/in/dantedenicolo/)
