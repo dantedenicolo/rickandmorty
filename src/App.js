@@ -14,6 +14,7 @@ import About from './components/About/About.jsx'
 import Detail from './components/Detail/Detail.jsx'
 import Error from './components/Error/Error.jsx'
 import Form from './components/Form/Form.jsx'
+import Favorites from './components/Favorites/Favorites.jsx'
 
 const URL_BASE = 'https://be-a-rym.up.railway.app/api/character'
 const API_KEY = 'b98387170bd7.2745e29cd81cecc025c1'
@@ -87,6 +88,7 @@ function App () {
         />
         <Route path='/about' element={<About />} />
         <Route path='/detail/:id' element={<Detail />} />
+        <Route path='/favorites' element={<Favorites />} />
         <Route path='*' element={<Navigate to='/404' replace />} />
         <Route path='/404' element={<Error />} />
       </Routes>

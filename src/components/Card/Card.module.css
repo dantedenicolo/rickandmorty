@@ -3,7 +3,7 @@
 	border-radius: 20px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 	max-width: 300px;
-	max-height: 500px;
+	max-height: 550px;
 }
 
 .container {
@@ -58,4 +58,8 @@
 	text-decoration: underline;
 	display: inline-block;
 	cursor: pointer;
+}
+
+.favBtn {
+	text-decoration: none !important;
 }

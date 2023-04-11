@@ -42,6 +42,11 @@ const Nav = (props) => {
             About
           </Link>
         </li>
+        <li>
+          <Link to='/favorites' className={style.link}>
+            Favorites
+          </Link>
+        </li>
         {showAdds && (
           <>
             <li>
