@@ -23,6 +23,7 @@ function App () {
 
   const [access, setAccess] = useState(false)
   const navigate = useNavigate()
+  // define email and password
   const email = 'test@test.com'
   const password = 'Test1234'
   const location = useLocation()
