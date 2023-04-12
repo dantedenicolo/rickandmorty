@@ -6,7 +6,7 @@ This is a basic project created using create-react-app from [React](https://reac
 
 ## Live Deploy
 
-You can try the app with every feature up-to-date in [https://rickandmortydeploy.vercel.app](https://rickandmortydeploy.vercel.app/).
+You can try the app with every feature up-to-date in [https://rickandmorty.dantu.me/](https://rickandmorty.dantu.me/).
 
 ## Roadmap
 
