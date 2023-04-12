@@ -22,6 +22,7 @@ You can try the app with every feature up-to-date in [https://rickandmortydeploy
 - Integration of Login Form (testing predefined credentials, no database)
 - Live form validation
 - Integration of Redux and Middleware. New 'Favorites' system.
+- Custom hooks implementation. New filter and order system.
 - Eslint up-to-date
 
 ## How to start?
