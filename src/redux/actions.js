@@ -1,8 +1,6 @@
 import { ADD_FAV, REMOVE_FAV, CHARACTER_DETAIL, FILTER, ORDER, RESET, CLEAN_FILTER } from './action-types'
 import axios from 'axios'
-
-const URL_BASE = 'https://be-a-rym.up.railway.app/api/character'
-const API_KEY = 'b98387170bd7.2745e29cd81cecc025c1'
+import { API_KEY, URL_BASE } from '../utils/api.js'
 
 export const addFav = (character) => ({
   type: ADD_FAV,

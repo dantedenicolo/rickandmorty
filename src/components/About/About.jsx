@@ -1,5 +1,5 @@
 import style from './About.module.css'
-import { Instagram, Twitter, LinkedIn, GitHub } from '../Redes/Redes'
+import { Instagram, Twitter, LinkedIn, GitHub } from '../'
 
 const About = () => {
   return (

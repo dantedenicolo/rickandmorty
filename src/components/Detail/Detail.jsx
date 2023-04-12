@@ -1,5 +1,5 @@
 import style from './Detail.module.css'
-import useCharacter from '../../hooks/useCharacter'
+import { useCharacter } from '../../hooks/useCharacter'
 
 const Detail = () => {
   const character = useCharacter()

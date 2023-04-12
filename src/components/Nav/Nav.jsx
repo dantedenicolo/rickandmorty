@@ -1,4 +1,4 @@
-import SearchBar from '../SearchBar/SearchBar'
+import { SearchBar } from '../'
 import style from './Nav.module.css'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 

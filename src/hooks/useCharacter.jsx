@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { characterDetail, cleanDetail } from '../redux/actions'
 import { useDispatch, useSelector } from 'react-redux'
 
-const useCharacter = () => {
+export const useCharacter = () => {
   const { id } = useParams()
   const dispatch = useDispatch()
   const character = useSelector((state) => state.characterDetail)
@@ -15,5 +15,3 @@ const useCharacter = () => {
 
   return character
 }
-
-export default useCharacter

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import Card from '../Card/Card'
+import { Card } from '../'
 import style from './Favorites.module.css'
 import { Link } from 'react-router-dom'
 import { order, filter, reset, cleanFilter } from '../../redux/actions'

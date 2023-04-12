@@ -23,6 +23,7 @@ You can try the app with every feature up-to-date in [https://rickandmorty.dantu
 - Live form validation
 - Integration of Redux and Middleware. New 'Favorites' system.
 - Custom hooks implementation. New filter and order system.
+- Cleaning of App.js with more custom hooks. Move of constants such as API urls or creds to 'utils' folder. Creation of index file for components.
 - Eslint up-to-date
 
 ## How to start?

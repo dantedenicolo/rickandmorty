@@ -1,4 +1,4 @@
-import Card from '../Card/Card'
+import { Card } from '../'
 import style from './Cards.module.css'
 import { Link } from 'react-router-dom'
 
