@@ -1,4 +1,4 @@
-import style from './redes.module.css'
+import style from './Redes.module.css'
 
 export const Instagram = () => {
   return (
