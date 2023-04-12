@@ -1,29 +1,8 @@
 import style from './Detail.module.css'
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-
-const URL_BASE = 'https://be-a-rym.up.railway.app/api/character'
-const API_KEY = 'b98387170bd7.2745e29cd81cecc025c1'
+import useCharacter from '../../hooks/useCharacter'
 
 const Detail = () => {
-  const [character, setCharacter] = useState({})
-  const { id } = useParams()
-
-  useEffect(() => {
-    axios(`${URL_BASE}/${id}?key=${API_KEY}`)
-      .then(({ data }) => {
-        if (data.name) {
-          setCharacter(data)
-        } else {
-          window.alert('No hay personajes con ese ID')
-        }
-      })
-      .catch(() => {
-        window.alert('No hay personajes con ese ID')
-      })
-    return setCharacter({})
-  }, [id])
+  const character = useCharacter()
   if (!character.name) {
     return (
       <h1>
