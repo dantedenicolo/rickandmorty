@@ -42,6 +42,12 @@ Then, you need to make sure you are working in the correct project folder. You c
   cd rickandmorty
 ```
 
+Now you need to install the dependencies using the following command:
+
+```bash
+npm install
+```
+
 Finally, you need to start the server. You can to this by using the following command:
 
 ```bash
