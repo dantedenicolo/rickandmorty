@@ -47,7 +47,7 @@ Then, you need to make sure you are working in the correct project folder. You c
   cd rickandmorty
 ```
 
-Now you need to install the dependencies using the following command:
+Now you need to install the dependencies using the following commands:
 
 ```bash
   cd Client
