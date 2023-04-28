@@ -73,6 +73,8 @@ Then, you can start the backend using the following command inside the backend f
 Then, you need to start the frontend. Remember to change the URL_BASE in the src/utils/api.js file to your own backend's URL. Then, you can start the frontend using the following command inside the frontend folder (note that you need to do this in a different console than the backend's one, without closing it):
 
 ```bash
+  npm start
+```
 
 Once you have done that, you can now review, inspect, and edit the code as you want. Feel free to do wathever you want and to give feedback if needed. Please note that this is my first project in react, so many things need to be improved.
 
