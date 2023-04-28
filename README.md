@@ -21,9 +21,14 @@ You can try the app with every feature up-to-date in [https://rickandmorty.dantu
 - New state "Access" that simulates a session and Logout button
 - Integration of Login Form (testing predefined credentials, no database)
 - Live form validation
-- Integration of Redux and Middleware. New 'Favorites' system.
-- Custom hooks implementation. New filter and order system.
-- Cleaning of App.js with more custom hooks. Move of constants such as API urls or creds to 'utils' folder. Creation of index file for components.
+- Integration of Redux and Middleware. New 'Favorites' system
+- Custom hooks implementation. New filter and order system
+- Cleaning of App.js with more custom hooks. Move of constants such as API urls or creds to 'utils' folder. Creation of index file for components
+- Creation of Backend in NodeJS and Express
+- Modularization of backend, new routes and controllers
+- Migration of API calls to the backend
+- Login with backend requests (no database yet)
+- Deploy backend to Railway and frontend to Vercel
 - Eslint up-to-date
 
 ## How to start?
@@ -45,14 +50,29 @@ Then, you need to make sure you are working in the correct project folder. You c
 Now you need to install the dependencies using the following command:
 
 ```bash
-npm install
+  cd Client
+  npm install
+  cd ../
+  cd Server
+  npm install
+  cd ../
 ```
 
-Finally, you need to start the server. You can to this by using the following command:
+Finally, you need to start both Front and Back ends. First start with the backend. If you want to use nodemon, remember to edit the package.json file and add the following line in the scripts section:
+
+```bash
+"start": "nodemon ./src/index.js"
+```
+
+Then, you can start the backend using the following command inside the backend folder:
 
 ```bash
   npm start
 ```
+
+Then, you need to start the frontend. Remember to change the URL_BASE in the src/utils/api.js file to your own backend's URL. Then, you can start the frontend using the following command inside the frontend folder (note that you need to do this in a different console than the backend's one, without closing it):
+
+```bash
 
 Once you have done that, you can now review, inspect, and edit the code as you want. Feel free to do wathever you want and to give feedback if needed. Please note that this is my first project in react, so many things need to be improved.
 

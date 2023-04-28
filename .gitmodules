@@ -1,0 +1,9 @@
+[submodule "client-side"]
+	path = client-side
+	url = https://github.com/dantedenicolo/rickandmorty-frontend.git
+[submodule "Client"]
+	path = Client
+	url = https://github.com/dantedenicolo/rickandmorty-frontend.git
+[submodule "Server"]
+	path = Server
+	url = https://github.com/dantedenicolo/rickandmorty-backend.git
