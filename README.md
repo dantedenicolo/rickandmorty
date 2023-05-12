@@ -2,7 +2,7 @@
 
 ![Rick and Morty project image](https://imgur.com/HdHbUe6.png)
 
-This is a basic project created using create-react-app from [React](https://react.dev/). It was developed following the [Henry](https://soyhenry.com) Bootcamp's schedule and it is still under development, so it will continue receiving updates and improvements.
+This is a basic project created using create-react-app from [React](https://react.dev/). It was developed following the [Henry](https://soyhenry.com) Bootcamp's schedule and it is now discontinued. Feel free to use it and improve it as you want.
 
 ## Live Deploy
 
