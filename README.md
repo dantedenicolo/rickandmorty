@@ -30,6 +30,7 @@ You can try the app with every feature up-to-date in [https://rickandmorty.dantu
 - Login with backend requests (no database yet)
 - Deploy backend to Railway and frontend to Vercel
 - Eslint up-to-date
+- (12/05/2023) - Discontinued
 
 ## How to start?
 
