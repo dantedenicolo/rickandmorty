@@ -4,10 +4,6 @@
 
 This is a basic project created using create-react-app from [React](https://react.dev/). It was developed following the [Henry](https://soyhenry.com) Bootcamp's schedule and it is now discontinued. Feel free to use it and improve it as you want.
 
-## Live Deploy
-
-You can try the app with every feature up-to-date in [https://rickandmorty.dantu.me/](https://rickandmorty.dantu.me/).
-
 ## Roadmap
 
 - Create project using create-react-app
@@ -85,6 +81,5 @@ For support, email denicolodante@gmail.com or DM [@dantedenicolo](https://instag
 
 ## Connect with me:
 
-- [Twitter](https://twitter.com/dantutu_)
 - [Instagram](https://instagram.com/dantedenicolo)
 - [LinkedIn](https://www.linkedin.com/in/dantedenicolo/)
